@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Board from './component/Board';
+import Reset from './component/Reset'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+// set dimentions to be passed through to the board components.
+class App extends React.Component {
+  state = {
+    height: 8,
+    width: 8,
+    mines: 10
+  };
+
+  render() {
+    const { height, width, mines } = this.state;
+    return (
+      <div className="game">
+        <Reset />
+        <Board height={height} width={width} mines={mines} />
+      </div>
+    );
+  }
 }
 
 export default App;

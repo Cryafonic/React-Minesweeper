@@ -1,0 +1,75 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+// set theh whole body of the page to a set style.
+body {
+  margin: 20px;
+  padding: 0;
+  font-family: sans-serif;
+background: linear-gradient(90deg, #59c3ec, #a8dbe4, #daecf5);}
+
+// Clear the contect to fit the boxing.
+.clear {
+  clear: left;
+  content: "";
+}
+
+// set the game board to a certain value.
+.game {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #3998cf;
+  margin-top: 15vh;
+
+  // sets the game info to a certain value in the box sizeing.
+  .game-info {
+    margin-bottom: 20px;
+    background: transparent;
+    padding: 10px;
+    text-align: left;
+    color: #fff;
+    min-height: 100px;
+    border-radius: 7px;
+    .info {
+      display: block;
+      margin-top: 15px;
+    }
+    h1,p {
+      margin: 0;
+    }
+    
+  }
+  
+  // set the cell to fit the game board to the correct sizing.
+  .cell {
+    background: #ebe4d1;
+    border: 1px solid #3998cf;
+    border-radius: 4px;
+    float: left;
+    line-height: 45px;
+    height: 45px;
+    text-align: center;
+    width: 45px;
+    cursor: pointer;
+    color: #333333;
+    font-weight: 600;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  // hide the values to until clicked.
+  .hidden {
+    background: #333333;
+  }
+
+  // sets the mine or number of where the falg was place to red.
+  .is-flag,
+  .is-mine {
+    color: #fc543c;
+  }
+}
