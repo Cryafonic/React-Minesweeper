@@ -2,6 +2,8 @@ import React from 'react';
 import Board from './component/Board';
 import Reset from './component/Reset'
 import Rules from './component/Rules';
+import Button from 'react-bootstrap/Button';
+import './component/General.css'
 
 
 // set dimentions to be passed through to the board components.
@@ -43,15 +45,17 @@ class App extends React.Component {
     if (this.state.loadChoice === false) {
       return (
         <div >
-          <form onSubmit={this.handleSubmit} >
-            <lable>Set game mines : </lable>
-            <select onChange={this.handleValueChange} >
-                <option value='easy'>Easy</option>
-                <option value='medium'>Medium</option>
-                <option value='hard'>Hard</option>
-            </select>
-            <input type="submit" value="OK" />
+          <form className="setForm" onSubmit={this.handleSubmit}  inline>
+              <lable className="lableText" >Set game difficutly: </lable>
+              <select className="dropdown" onChange={this.handleValueChange} >
+                  <option className='option' value='easy'>Easy</option>
+                  <option value='medium'>Medium</option>
+                  <option value='hard'>Hard</option>
+              </select>
+              <Button variant="primary m-1" type="submit" >OK</Button>
           </form>
+          <h2 className="h2Align indieFlowerFont" >Minesweeper</h2>
+          <img className="image" src="https://cdn-0.emojis.wiki/emoji-pics/facebook/bomb-facebook.png" alt="Minesweeper mine"/>
         </div>
       );}else if (this.state.loadChoice === true) {
           return(

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+.dropdown {
+    border: 2px solid rgb(0, 131, 253);
+    background-color: rgb(0, 131, 253);
+    border-radius: 0.7vh;
+    cursor: pointer;
+}
+
+.lableText {
+    font-size: large;
+    font-weight: bold;
+    padding-left: 80vh;
+}
+
+.setForm {
+    border: 2px solid rgb(0, 194, 253);
+    background-color: rgb(0, 181, 253);
+    border-radius: 20px;
+    position: relative;
+    top: 150px;
+}
+
+.indieFlowerFont {
+    font-size: 60px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.h2Align {
+    position: relative;
+    top: 27vh;
+    left: 81vh;
+}
+
+.image {
+    position: relative;
+    top: 30vh;
+    left: 85vh;
+}   

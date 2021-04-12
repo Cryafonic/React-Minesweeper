@@ -5,10 +5,10 @@
 }
 // set theh whole body of the page to a set style.
 body {
-  margin: 20px;
-  padding: 0;
   font-family: sans-serif;
-background: linear-gradient(90deg, #59c3ec, #a8dbe4, #daecf5);}
+  background: linear-gradient(90deg, #59c3ec, #a8dbe4, #daecf5);
+  overflow: hidden;
+}
 
 // Clear the contect to fit the boxing.
 .clear {
