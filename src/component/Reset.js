@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Button from 'react-bootstrap/Button';
 
 export default class Reset extends Component {
     
@@ -8,7 +9,7 @@ export default class Reset extends Component {
 
     render(){
         return (
-            <button onClick={this.handleReset}>Reset</button>
+            <Button variant="primary" onClick={this.handleReset}>Reset</Button>
         );
     }
 }
