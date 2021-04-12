@@ -10,8 +10,6 @@ class Board extends React.Component {
           mineCount: this.props.mines,
       };
   
-      /* Helper Functions */
-  
       // get mines
       getMines(data) {
           let mineArray = [];
@@ -271,7 +269,7 @@ class Board extends React.Component {
               mineCount: mines,
           });
       }
-  
+//   render the board for initial rendering.
       renderBoard(data) {
           return data.map((datarow) => {
               return datarow.map((dataitem) => {

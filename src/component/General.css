@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+/* styling the dropdown menu */
 .dropdown {
     border: 2px solid rgb(0, 131, 253);
     background-color: rgb(0, 131, 253);
@@ -7,12 +8,14 @@
     cursor: pointer;
 }
 
+/* styling the lable text */
 .lableText {
     font-size: large;
     font-weight: bold;
     padding-left: 80vh;
 }
 
+/* postioning the form with a bording styling. */
 .setForm {
     border: 2px solid rgb(0, 194, 253);
     background-color: rgb(0, 181, 253);
@@ -21,17 +24,20 @@
     top: 150px;
 }
 
+/* setting the font to a certain font. */
 .indieFlowerFont {
     font-size: 60px;
     font-family: 'Indie Flower', cursive;
 }
 
+/* aligning the heading to match the minesweeper image. */
 .h2Align {
     position: relative;
     top: 27vh;
     left: 81vh;
 }
 
+/* image posisioning. */
 .image {
     position: relative;
     top: 30vh;

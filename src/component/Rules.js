@@ -16,6 +16,7 @@ function Rules() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
   
+    // adding button on the minesweeper game that acts like modal.
     return (
       <>
         <Button variant="primary" className="m-1" onClick={handleShow}>
