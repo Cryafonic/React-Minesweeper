@@ -29,7 +29,7 @@ Visual Studio Code: https://code.visualstudio.com/download
 1. Clone the repository to your local manchine by using ```git clone "repo link"``` in the command line.  
   ![clone](/git_images/clone.jpg)
 2. Once cloned, run `npm start` within the repo that you have cloned. 
-  ![launch the project](/git_images/npm_start.png)
+  ![launch the project](/git_images/npm_start.PNG)
 
  How it works:  
     * choose your difficulty and click ok. 
