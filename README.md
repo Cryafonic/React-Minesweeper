@@ -19,7 +19,7 @@ The main objective of this application is to win at minesweeper by selecting you
     ![clone](/git_images/clone.jpg)
   1.1 if you dont have git install use the following link: https://git-scm.com/downloads  
 2. To continue with development, all you need is to open the specified files with your favourite text editor or IDE.  
-    ![project_files](/git_images/project_files.jpg)
+    ![project_files](/git_images/project_files.PNG)
 
 If you don't have any text editor:
 Visual Studio Code: https://code.visualstudio.com/download  
@@ -29,15 +29,15 @@ Visual Studio Code: https://code.visualstudio.com/download
 1. Clone the repository to your local manchine by using ```git clone "repo link"``` in the command line.  
   ![clone](/git_images/clone.jpg)
 2. Once cloned, run `npm start` within the repo that you have cloned. 
-  ![launch the project](/git_images/launch_the_project.jpg)
+  ![launch the project](/git_images/npm_start.png)
 
  How it works:  
     * choose your difficulty and click ok. 
-      ![difficulty](/git_images/difficulty.jpg)
+      ![difficulty](/git_images/difficulty.PNG)
     * And enjoy.
 
 ### Rules of the game.
-  ![rules](/git_images/rules.jpg)
+  ![rules](/git_images/rules.PNG)
   1) The goal of the game is to NOT click any bombs.
   2) Each number tells you how many bombs are adjacent to the "clicked" cell.
   3) The numbers reange from 0 to 8. Each cell has 8 neigbors. Count them.
